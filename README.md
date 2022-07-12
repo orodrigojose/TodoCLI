@@ -27,17 +27,17 @@ YSSS~S%SSSSSP
 
 ## Índice 
 
-* [Início](#Todo-CLI)
-* [Índice](Índice)
-* [Instalação](#Instalação)
-* [Como contribuir?](Como-contribuir?)
-* [Como usar?](#Como-usar?)
-	* [Criando/Abrindo uma Todo.](#Criando/Abrindo-uma-Todo.)
-	* [Comandos](#Comandos)
-		* [Combinações de teclas](#Combinações-de-teclas)
-		* [Manipulação de task](Manipulação-de-task)
-* [Configuração](#Configuração)
-	* [Alterando banner ASCII](#Alterando-banner-ASCII)
+* [Início](#todocli)
+* [Índice](índice)
+* [Instalação](#instalação)
+* [Como contribuir?](#como-contribuir)
+* [Como usar?](#como-usar)
+	* [Criando/Abrindo uma Todo.](#criandoabrindo-uma-todo)
+	* [Comandos](#comandos)
+		* [Combinações de teclas](#combinações-de-teclas)
+		* [Manipulação de task](#manipulação-de-task)
+* [Configuração](#configuração)
+	* [Alterando banner ASCII](#alterando-banner-ascii)
 
 ## Instalação
 Para instalar o projeto siga as etapas a seguir:
@@ -99,7 +99,7 @@ Onde podemos definir algumas "Combinações de Teclas" e a cor primária.
 ### Alterando banner ASCII
 Para colocar uma ascii art de sua preferência para a home, substitua ascii definida em [ascii_banner](https://github.com/rodr1goS/TodoCLI/blob/main/home.py#L10).
 
+[⬆ Voltar ao top](#todocli)
+
 ___
 `Made with 💜 by rodr1goS`
-
-[⬆ Voltar ao top](#Todo-CLI)
