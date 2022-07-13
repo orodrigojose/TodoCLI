@@ -10,6 +10,7 @@ class InputText(Widget):
 
     title: Reactive = Reactive("")
     content: Reactive = Reactive("")
+    submit: Reactive = Reactive(False)
 
     def __init__(self, title: str):
         super().__init__(title)
@@ -19,8 +20,11 @@ class InputText(Widget):
     def on_key(self, event: events.Key) -> None:
         if event.key == 'ctrl+h':
             self.content = self.content[:-1]
-            return
-        self.content += event.key
+        elif event.key == 'enter':
+            self.submit = True
+        else:
+            self.submit = False
+            self.content += event.key
 
 
     def validate_title(self, value) -> None:

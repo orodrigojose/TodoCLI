@@ -1,8 +1,9 @@
 import json, argparse, os
 from sys import exit
 from rich.console import Console
-from todoRenderer import TodoLayout, ActionsLayout
+from todoRenderer import TodoLayout
 from todoRenderer.components.PanelInfo import PanelInfo
+from todoRenderer.components.InputText import InputText
 from textual.app import App
 from textual.reactive import Reactive
 from textual.widgets import ScrollView
@@ -137,17 +138,19 @@ class MainApp(App):
         self.panel_informations.layout_offset_x = -40
 
         await self.view.dock(self.panel_informations, edge='left', size=40, z=1)
-        await self.view.dock(self.actions_layout, edge='bottom', size=3)
+        await self.view.dock(self.command_field, edge='bottom', size=3)
         await self.view.dock(ScrollView(TodoLayout(todo)), edge='top')
 
 
-    async def handle_button_pressed(self) -> None:
-        command = self.actions_layout.command_field.content
-        self.actions_layout.command_field.content = ''
+    async def on_key(self) -> None:
+        command = self.command_field.content
 
-        if command:
+        if command and self.command_field.submit:
+            self.command_field.content = ''
             try:
                 cmd, task = command.split(' ', 1)
+                if task == '' or task == ' ':
+                    raise Exception('Invalid arguments')
             except:
                 cmd, task = command, 'Error'
             finally:
@@ -172,7 +175,7 @@ class MainApp(App):
 
     async def on_mount(self) -> None:
         self.todo = todo
-        self.actions_layout = ActionsLayout(config['pallete']['primary'])
+        self.command_field = InputText('Command')
 
         await self.render_components()
 
