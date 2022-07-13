@@ -137,8 +137,8 @@ class MainApp(App):
         self.panel_informations.layout_offset_x = -40
 
         await self.view.dock(self.panel_informations, edge='left', size=40, z=1)
-        await self.view.dock(ScrollView(TodoLayout(todo)), edge='top', size=26)
         await self.view.dock(self.actions_layout, edge='bottom', size=3)
+        await self.view.dock(ScrollView(TodoLayout(todo)), edge='top')
 
 
     async def handle_button_pressed(self) -> None:
