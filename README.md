@@ -3,7 +3,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/s3nsh1i/TodoCLI?color=6666ff&style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/s3nsh1i/TodoCLI?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/s3nsh1i/TodoCLI?color=ff6699&style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/s3nshi/TodoCLI?color=99ccff&style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/s3nsh1i/TodoCLI?color=99ccff&style=for-the-badge)
 
 
 ```
