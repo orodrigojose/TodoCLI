@@ -1,9 +1,9 @@
 # TodoCLI
-![GitHub](https://img.shields.io/github/license/s3nsh1i/TodoCLI?color=9966ff&style=for-the-badge)
-![GitHub repo size](https://img.shields.io/github/repo-size/s3nsh1i/TodoCLI?color=6666ff&style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/s3nsh1i/TodoCLI?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/s3nsh1i/TodoCLI?color=ff6699&style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/s3nsh1i/TodoCLI?color=99ccff&style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/sennshi/TodoCLI?color=9966ff&style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/sennshi/TodoCLI?color=6666ff&style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/sennshi/TodoCLI?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/sennshi/TodoCLI?color=ff6699&style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/sennshi/TodoCLI?color=99ccff&style=for-the-badge)
 
 
 ```
@@ -102,4 +102,4 @@ Para colocar uma ascii art de sua preferência para a home, substitua ascii defi
 [⬆ Voltar ao top](#todocli)
 
 ___
-`Made with 💜 by s3nsh1i`
+`Made with 💜 by sennshi`
