@@ -73,10 +73,10 @@ Assim exibindo a tela inicial, que nela contém suas [configurações](#Configur
 
 #### Manipulação de task
 
-- `add <tarefa>`: é utilizado para adicionar uma tarefa ao todo.
-- `rm <tarefa>`: remove tarefa existente.
-- `check <tarefa>`: basicamente marca a tarefa como concluída.
-- `uncheck <tarefa>`: marca a tarefa como pendente novamente.
+- `add <tarefa>` ou `add :id`: é utilizado para adicionar uma tarefa ao todo.
+- `rm <tarefa>` ou `rm :id`: remove tarefa existente.
+- `check <tarefa>` ou `check :id`: basicamente marca a tarefa como concluída.
+- `uncheck <tarefa>` ou `uncheck :id`: marca a tarefa como pendente novamente.
 
 As tarefas possuem 2 estados, `<pending>`(pendente) e `<completed>`(completo/concluído)
 
