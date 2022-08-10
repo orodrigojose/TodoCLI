@@ -28,13 +28,19 @@ class Command:
         try:
             avaliables_commands[command](task)
             self.__update_data()
-        except:
-            return
+        except Exception as e:
+            return e
 
 
     def add(self, task_name):
-        if not self.__find_data(task_name):
+        if not self.__find_data(task_name, 'name') and task_name.find(':') == -1:
+            last_task_id = 0
+
+            if len(self.todo['tasks']) > 0:
+                last_task_id = self.todo['tasks'][-1]['id']
+
             task = {
+                'id': last_task_id + 1,
                 'name': task_name,
                 'status': 'pending'
             }
@@ -42,24 +48,40 @@ class Command:
             self.todo['tasks'].append(task)
 
 
-    def remove(self, task_name):
-        task = self.__find_data(task_name)
+    def remove(self, task_reference):
+        find_type = self.__type_task_reference(task_reference)
+
+        task = self.__find_data(task_reference, find_type)
         self.todo['tasks'].remove(task)
 
     
-    def check(self, task_name):
-        task = self.__find_data(task_name)
+    def check(self, task_reference):
+        find_type = self.__type_task_reference(task_reference)
+
+        task = self.__find_data(task_reference, find_type)
         task['status'] = 'completed'
 
 
-    def uncheck(self, task_name):
-        task = self.__find_data(task_name)
+    def uncheck(self, task_reference):
+        find_type = self.__type_task_reference(task_reference)
+
+        task = self.__find_data(task_reference, find_type)
         task['status'] = 'pending'
 
 
-    def __find_data(self, find):
+    def __type_task_reference(self, reference):
+        if reference.find(':') != -1:
+            return 'id'
+
+        return 'name'
+
+
+    def __find_data(self, find, find_type):
+        if find_type == 'id':
+            find = int(find[1:]) if find[0] == ':' else int(find[:-1])
+
         for task in self.todo['tasks']:
-            if task['name'] == find:
+            if task[find_type] == find:
                 return task
 
 

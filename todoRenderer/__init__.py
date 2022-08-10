@@ -25,6 +25,6 @@ class TodoLayout(Widget):
     @group()
     def load_tasks(self):
         for task_data in self.todo['tasks']:
-            yield Task(task_data['name'], task_data['status'])
+            yield Task(task_data['id'], task_data['name'], task_data['status'])
 
 
