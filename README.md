@@ -28,7 +28,7 @@ YSSS~S%SSSSSP
 ## Índice 
 
 * [Início](#todocli)
-* [Índice](índice)
+* [Índice](#índice)
 * [Instalação](#instalação)
 * [Como contribuir?](#como-contribuir)
 * [Como usar?](#como-usar)
