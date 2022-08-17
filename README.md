@@ -42,11 +42,11 @@ YSSS~S%SSSSSP
 ## Instalação
 Para instalar o projeto siga as etapas a seguir:
 
-1. Istalação das bibliotecas/dependências necessárias.
-`pip install -r requeriments.txt`
-
-2. Clone o repositório em seu terminal utilizando:
+1. Clone o repositório utilizando em seu terminal:
 `git clone https://github.com/rodr1goS/TodoCLI`
+
+2. Realize a instalação das bibliotecas/dependências necessárias.
+`pip install -r requeriments.txt`
 
 ## Como contribuir?
 Caso tenha ideias de melhorias ou adições, faça uma [issue](https://github.com/rodr1goS/TodoCLI/issues/new) ou um [pull request](https://github.com/rodr1goS/TodoCLI/pulls).
