@@ -36,7 +36,7 @@ YSSS~S%SSSSSP
 	* [Comandos](#comandos)
 		* [Combinações de teclas](#combinações-de-teclas)
 		* [Manipulação de task](#manipulação-de-task)
-* [Configuração](#configuração)
+* [Configuração](#configurando)
 	* [Alterando banner ASCII](#alterando-banner-ascii)
 
 ## Instalação
@@ -80,9 +80,16 @@ Assim exibindo a tela inicial, que nela contém suas [configurações](#Configur
 
 As tarefas possuem 2 estados, `<pending>`(pendente) e `<completed>`(completo/concluído)
 
-## Configuração
-Após a execução do arquivo `main.py` é gerado um arquivo `config.json`.
-Onde podemos definir algumas "Combinações de Teclas" e a cor primária.
+## Configurando
+Após a execução do arquivo `main.py` é gerado um arquivo chamado `config.json`.
+Onde podemos definir algumas "Combinações de Teclas" e a cor primária da todo list.
+
+| parâmetro  | argumentos | valor |
+|------------|------------|-------|
+| keymapping | `exit` e `pannel_toggle` | Teclas(combinções de teclas) para executar `exit` e `pannel_toggle` |
+| pallete    |  `primary` | `blue`, `red`, `green` e etc..|
+
+o arquivo `config.json` terá a seguinte estrutura por padrão.
 
 ```json
 {
