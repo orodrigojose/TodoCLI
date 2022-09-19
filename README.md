@@ -1,5 +1,4 @@
 # TodoCLI
-![GitHub](https://img.shields.io/github/license/sennshi/TodoCLI?color=9966ff&style=for-the-badge)
 ![GitHub repo size](https://img.shields.io/github/repo-size/sennshi/TodoCLI?color=6666ff&style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/sennshi/TodoCLI?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/sennshi/TodoCLI?color=ff6699&style=for-the-badge)
