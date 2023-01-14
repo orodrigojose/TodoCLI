@@ -1,8 +1,8 @@
 # TodoCLI
-![GitHub repo size](https://img.shields.io/github/repo-size/sennshi/TodoCLI?color=6666ff&style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/sennshi/TodoCLI?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/sennshi/TodoCLI?color=ff6699&style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/sennshi/TodoCLI?color=99ccff&style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/rodrigosj7/TodoCLI?color=6666ff&style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/rodrigosj7/TodoCLI?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/rodrigosj7/TodoCLI?color=ff6699&style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/rodrigosj7/TodoCLI?color=99ccff&style=for-the-badge)
 
 
 ```
@@ -42,13 +42,13 @@ YSSS~S%SSSSSP
 Para instalar o projeto siga as etapas a seguir:
 
 1. Clone o repositório utilizando em seu terminal:
-`git clone https://github.com/rodr1goS/TodoCLI`
+`git clone https://github.com/rodrigosj7/TodoCLI`
 
 2. Realize a instalação das bibliotecas/dependências necessárias.
 `pip install -r requeriments.txt`
 
 ## Como contribuir?
-Caso tenha ideias de melhorias ou adições, faça uma [issue](https://github.com/rodr1goS/TodoCLI/issues/new) ou um [pull request](https://github.com/rodr1goS/TodoCLI/pulls).
+Caso tenha ideias de melhorias ou adições, faça uma [issue](https://github.com/rodrigosj7/TodoCLI/issues/new) ou um [pull request](https://github.com/rodrigosj7/TodoCLI/pulls).
 Saiba mais [como criar uma solicitação de pull.](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 
 ## Como usar?
@@ -103,9 +103,9 @@ o arquivo `config.json` terá a seguinte estrutura por padrão.
 ```
 
 ### Alterando banner ASCII
-Para colocar uma ascii art de sua preferência para a home, substitua ascii definida em [ascii_banner](https://github.com/rodr1goS/TodoCLI/blob/main/home.py#L10).
+Para colocar uma ascii art de sua preferência para a home, substitua ascii definida em [ascii_banner](https://github.com/rodrigosj7/TodoCLI/blob/main/home.py#L10).
 
 [⬆ Voltar ao top](#todocli)
 
 ___
-`Made with 💜 by sennshi`
+`Made with 💜 by Rodrigo Sennshi`
